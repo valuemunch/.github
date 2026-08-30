@@ -6,42 +6,38 @@
 
 **Trae Hackathon project for turning pantry ingredients into guided meal ideas.**
 
-ValueMunch explores a mobile-friendly journey from a pantry photo to ingredient recognition, recipe suggestions, guided cooking, and a simple reward reveal. It is a hackathon prototype and project record, not an employer or operating company.
+ValueMunch creates a mobile friendly journey from a pantry photo to ingredient recognition, recipe suggestions, guided cooking, and a simple reward reveal.
 
 ## Demo Walkthrough
 
 1. Upload or capture a pantry or kitchen image.
 2. Detect visible ingredients and generate three recipe suggestions.
 3. Select a recipe and follow its cooking steps.
-4. Complete the recipe to reveal the prototype reward experience.
+4. Complete the recipe to reveal the reward experience.
 5. Fall back to sample recipes when AI processing is unavailable.
 
-## Prototype Architecture
+## Architecture
 
-```text
-Progressive web application
-        |
-        +--> Image capture or upload
-        +--> Gemini ingredient and recipe generation
-        +--> Guided cooking state
-        +--> Firebase-backed expanded demo features
+```mermaid
+flowchart TD
+    A[Progressive web application] --> B[Image capture or upload]
+    B --> C[Gemini ingredient recognition]
+    C --> D[Recipe generation]
+    D --> E[Guided cooking state]
+    A --> F[Firebase backed expanded features]
 ```
 
 ## Public Repositories
 
 | Repository | Purpose |
 | --- | --- |
-| [pantry-io](https://github.com/valuemunch/pantry-io) | Pantry-photo-to-recipe progressive web app prototype |
-| [demo](https://github.com/valuemunch/demo) | Expanded React and Firebase meal-discovery experience |
-| [plan](https://github.com/valuemunch/plan) | Product flow, architecture, API, error-handling, and UI planning documents |
-| [hackathon](https://github.com/valuemunch/hackathon) | Initial Next.js hackathon scaffold retained as part of the build record |
+| [pantry-io](https://github.com/valuemunch/pantry-io) | Pantry photo to recipe progressive web application |
+| [demo](https://github.com/valuemunch/demo) | Expanded React and Firebase meal discovery experience |
+| [plan](https://github.com/valuemunch/plan) | Product flow, architecture, API, error handling, and interface planning documents |
+| [hackathon](https://github.com/valuemunch/hackathon) | Initial Next.js hackathon scaffold |
 
-## Scope
+## Note
 
-The reward is a deterministic demonstration rather than a live promotion or redemption system. Recipe and ingredient outputs should be reviewed by users and are not dietary or food-safety advice.
-
-## Project Status
-
-ValueMunch was built as a time-boxed hackathon collaboration. Contributors participated for the event; the organization does not represent an ongoing employment relationship.
+The reward flow is simulated. Recipe and ingredient suggestions should be reviewed before cooking.
 
 [Open ValueMunch](https://valuemunch.web.app) | [Explore the repositories](https://github.com/orgs/valuemunch/repositories)
