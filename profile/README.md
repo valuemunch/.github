@@ -4,6 +4,11 @@
 
 # ValueMunch
 
+<!-- portfolio-status -->
+## Project Status
+
+ValueMunch is preserved as a hackathon case study. The original Firebase backed expanded demo has been retired. Source and planning materials remain available for review and local reproduction with a new cloud project. `pantry-io` is independently maintained and is not covered by this status note.
+
 **Trae Hackathon project for turning pantry ingredients into guided meal ideas.**
 
 ValueMunch creates a mobile friendly journey from a pantry photo to ingredient recognition, recipe suggestions, guided cooking, and a simple reward reveal.
@@ -40,4 +45,4 @@ flowchart TD
 
 The reward flow is simulated. Recipe and ingredient suggestions should be reviewed before cooking.
 
-[Open ValueMunch](https://valuemunch.web.app) | [Explore the repositories](https://github.com/orgs/valuemunch/repositories)
+[Explore the repositories](https://github.com/orgs/valuemunch/repositories)
