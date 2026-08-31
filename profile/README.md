@@ -5,9 +5,7 @@
 # ValueMunch
 
 <!-- portfolio-status -->
-## Project Status
-
-ValueMunch is preserved as a hackathon case study. The original Firebase backed expanded demo has been retired. Source and planning materials remain available for review and local reproduction with a new cloud project. `pantry-io` is independently maintained and is not covered by this status note.
+> Built for the Trae Hackathon. The Firebase demo is no longer available. Source and planning documents are included here. `pantry-io` is maintained separately.
 
 **Trae Hackathon project for turning pantry ingredients into guided meal ideas.**
 
