@@ -4,9 +4,6 @@
 
 # ValueMunch
 
-<!-- portfolio-status -->
-> Built for the Trae Hackathon. The Firebase demo is no longer available. Source and planning documents are included here. `pantry-io` is maintained separately.
-
 **Trae Hackathon project for turning pantry ingredients into guided meal ideas.**
 
 ValueMunch creates a mobile friendly journey from a pantry photo to ingredient recognition, recipe suggestions, guided cooking, and a simple reward reveal.
